@@ -1,5 +1,5 @@
 {% set name = "xontrib-argcomplete" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3782fb8d1560ebff6dd149541ee797e0ecee5a5eb217053809ae0389f369935f
+  sha256: c5c59caed8849771c5d9091948a7210a198ddce83d782287476520de1d17c614
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Support for argcomplete in xonsh'
+  summary: Support for argcomplete in xonsh
   doc_url: https://github.com/anki-code/xontrib-argcomplete/blob/master/README.md
   dev_url: https://github.com/anki-code/xontrib-argcomplete
 
