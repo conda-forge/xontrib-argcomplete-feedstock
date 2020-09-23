@@ -1,5 +1,5 @@
 {% set name = "xontrib-argcomplete" %}
-{% set version = "0.2.9" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a818afa5b60246a458c3d4ec819a3970bde4886f87fea0519559155d4031a7ea
+  sha256: aa16647ea47e2a02e9af0c0240e02d328abe155499d173d2ab1c1d0554fe7d1e
 
 build:
   noarch: python
