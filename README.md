@@ -5,11 +5,13 @@ Home: https://github.com/anki-code/xontrib-argcomplete
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xontrib-argcomplete-feedstock/blob/master/LICENSE.txt)
 
 Summary: Support for argcomplete in xonsh
 
+Development: https://github.com/anki-code/xontrib-argcomplete
 
+Documentation: https://github.com/anki-code/xontrib-argcomplete/blob/master/README.md
 
 Current build status
 ====================
